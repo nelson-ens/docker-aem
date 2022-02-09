@@ -1,0 +1,19 @@
+
+# Ignore IDE and Operating System artifacts
+.idea
+.classpath
+.metadata
+.project
+.settings
+maven-eclipse.xml
+*.iml
+*.ipr
+*.iws
+*.zip
+*.jar
+*.far
+*.Identifier
+.DS_Store
+
+target/
+logs/

@@ -1,0 +1,11 @@
+aem:
+  build: .
+  labels:
+    aem.version: "2022.1.6228.20220123T154100Z-220100"
+    os.version: "centos 7"
+    java.version: "oracle 11"
+    container.description: "aem instance, will run as author unless specified otherwise"
+  container_name: "aem-sdk-forms"
+  ports:
+   - "8080:8080"
+   - "58242:58242"
